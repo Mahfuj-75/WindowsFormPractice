@@ -46,9 +46,9 @@ namespace WindowsFormPractice
         private void btnLogin_Click(object sender, EventArgs e)
         {
             if (textuser.Text == "")
-                lblUser.Text = "UserName is Required";
+                lbluname.Text = "UserName is Required";
             if (textpass.Text == "")
-                lblpass.Text = "PassWord is Required";
+                lblpassrequired.Text = "PassWord is Required";
 
             if (textuser.Text == name && textpass.Text == pass)
                 MessageBox.Show("Login SuccesFully");
