@@ -34,8 +34,8 @@
             this.logoPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.lblUser = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textuser = new System.Windows.Forms.TextBox();
+            this.textpass = new System.Windows.Forms.TextBox();
             this.btnLogin = new System.Windows.Forms.Button();
             this.lblpassrequired = new System.Windows.Forms.Label();
             this.lblForgot = new System.Windows.Forms.Label();
@@ -112,20 +112,20 @@
             this.label2.Text = "PassWord  :";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // textBox1
+            // textuser
             // 
-            this.textBox1.Location = new System.Drawing.Point(196, 173);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(191, 22);
-            this.textBox1.TabIndex = 7;
+            this.textuser.Location = new System.Drawing.Point(196, 173);
+            this.textuser.Name = "textuser";
+            this.textuser.Size = new System.Drawing.Size(191, 22);
+            this.textuser.TabIndex = 7;
             // 
-            // textBox2
+            // textpass
             // 
-            this.textBox2.Location = new System.Drawing.Point(196, 217);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.PasswordChar = '*';
-            this.textBox2.Size = new System.Drawing.Size(191, 22);
-            this.textBox2.TabIndex = 8;
+            this.textpass.Location = new System.Drawing.Point(196, 217);
+            this.textpass.Name = "textpass";
+            this.textpass.PasswordChar = '*';
+            this.textpass.Size = new System.Drawing.Size(191, 22);
+            this.textpass.TabIndex = 8;
             // 
             // btnLogin
             // 
@@ -147,7 +147,7 @@
             this.lblpassrequired.ForeColor = System.Drawing.Color.Brown;
             this.lblpassrequired.Location = new System.Drawing.Point(208, 242);
             this.lblpassrequired.Name = "lblpassrequired";
-            this.lblpassrequired.Size = new System.Drawing.Size(0, 16);
+            this.lblpassrequired.Size = new System.Drawing.Size(0, 15);
             this.lblpassrequired.TabIndex = 11;
             // 
             // lblForgot
@@ -168,7 +168,7 @@
             this.lbluname.ForeColor = System.Drawing.Color.Brown;
             this.lbluname.Location = new System.Drawing.Point(208, 195);
             this.lbluname.Name = "lbluname";
-            this.lbluname.Size = new System.Drawing.Size(0, 16);
+            this.lbluname.Size = new System.Drawing.Size(0, 15);
             this.lbluname.TabIndex = 13;
             this.lbluname.Click += new System.EventHandler(this.label4_Click);
             // 
@@ -182,8 +182,8 @@
             this.Controls.Add(this.lblForgot);
             this.Controls.Add(this.lblpassrequired);
             this.Controls.Add(this.btnLogin);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textpass);
+            this.Controls.Add(this.textuser);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblUser);
             this.Controls.Add(this.logoPanel);
@@ -205,8 +205,8 @@
         private System.Windows.Forms.FlowLayoutPanel logoPanel;
         private System.Windows.Forms.Label lblUser;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textuser;
+        private System.Windows.Forms.TextBox textpass;
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Label lblpassrequired;
         private System.Windows.Forms.Label lblForgot;
