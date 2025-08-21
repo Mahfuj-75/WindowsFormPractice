@@ -33,7 +33,7 @@
             this.lblLogo = new System.Windows.Forms.Label();
             this.logoPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.lblUser = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblpass = new System.Windows.Forms.Label();
             this.textuser = new System.Windows.Forms.TextBox();
             this.textpass = new System.Windows.Forms.TextBox();
             this.btnLogin = new System.Windows.Forms.Button();
@@ -101,16 +101,16 @@
             this.lblUser.Text = "User Name :";
             this.lblUser.Click += new System.EventHandler(this.label1_Click_2);
             // 
-            // label2
+            // lblpass
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(57, 216);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(129, 24);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "PassWord  :";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.lblpass.AutoSize = true;
+            this.lblpass.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblpass.Location = new System.Drawing.Point(57, 216);
+            this.lblpass.Name = "lblpass";
+            this.lblpass.Size = new System.Drawing.Size(129, 24);
+            this.lblpass.TabIndex = 6;
+            this.lblpass.Text = "PassWord  :";
+            this.lblpass.Click += new System.EventHandler(this.label2_Click);
             // 
             // textuser
             // 
@@ -184,7 +184,7 @@
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.textpass);
             this.Controls.Add(this.textuser);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lblpass);
             this.Controls.Add(this.lblUser);
             this.Controls.Add(this.logoPanel);
             this.Controls.Add(this.lblMessage);
@@ -204,7 +204,7 @@
         private System.Windows.Forms.Label lblLogo;
         private System.Windows.Forms.FlowLayoutPanel logoPanel;
         private System.Windows.Forms.Label lblUser;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblpass;
         private System.Windows.Forms.TextBox textuser;
         private System.Windows.Forms.TextBox textpass;
         private System.Windows.Forms.Button btnLogin;
