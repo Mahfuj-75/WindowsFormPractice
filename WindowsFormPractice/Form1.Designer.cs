@@ -51,7 +51,7 @@
             this.lblMessage.AutoSize = true;
             this.lblMessage.Font = new System.Drawing.Font("Segoe UI", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMessage.ForeColor = System.Drawing.Color.MediumBlue;
-            this.lblMessage.Location = new System.Drawing.Point(131, 263);
+            this.lblMessage.Location = new System.Drawing.Point(245, 336);
             this.lblMessage.Name = "lblMessage";
             this.lblMessage.Size = new System.Drawing.Size(231, 17);
             this.lblMessage.TabIndex = 4;
@@ -63,7 +63,7 @@
             this.lblUser.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblUser.AutoSize = true;
             this.lblUser.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUser.Location = new System.Drawing.Point(57, 172);
+            this.lblUser.Location = new System.Drawing.Point(171, 245);
             this.lblUser.Name = "lblUser";
             this.lblUser.Size = new System.Drawing.Size(127, 28);
             this.lblUser.TabIndex = 5;
@@ -76,7 +76,7 @@
             this.lblpass.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblpass.AutoSize = true;
             this.lblpass.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblpass.Location = new System.Drawing.Point(57, 216);
+            this.lblpass.Location = new System.Drawing.Point(171, 289);
             this.lblpass.Name = "lblpass";
             this.lblpass.Size = new System.Drawing.Size(121, 28);
             this.lblpass.TabIndex = 6;
@@ -86,7 +86,7 @@
             // textuser
             // 
             this.textuser.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textuser.Location = new System.Drawing.Point(196, 173);
+            this.textuser.Location = new System.Drawing.Point(310, 246);
             this.textuser.Name = "textuser";
             this.textuser.Size = new System.Drawing.Size(191, 22);
             this.textuser.TabIndex = 7;
@@ -94,7 +94,7 @@
             // textpass
             // 
             this.textpass.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textpass.Location = new System.Drawing.Point(196, 217);
+            this.textpass.Location = new System.Drawing.Point(310, 290);
             this.textpass.Name = "textpass";
             this.textpass.PasswordChar = '*';
             this.textpass.Size = new System.Drawing.Size(191, 22);
@@ -119,7 +119,7 @@
             this.lblForgot.AutoSize = true;
             this.lblForgot.Font = new System.Drawing.Font("Segoe UI", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblForgot.ForeColor = System.Drawing.Color.Maroon;
-            this.lblForgot.Location = new System.Drawing.Point(329, 417);
+            this.lblForgot.Location = new System.Drawing.Point(443, 490);
             this.lblForgot.Name = "lblForgot";
             this.lblForgot.Size = new System.Drawing.Size(150, 17);
             this.lblForgot.TabIndex = 12;
@@ -145,7 +145,7 @@
             this.btnLogin.BackColor = System.Drawing.Color.DarkBlue;
             this.btnLogin.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.ForeColor = System.Drawing.Color.White;
-            this.btnLogin.Location = new System.Drawing.Point(196, 309);
+            this.btnLogin.Location = new System.Drawing.Point(310, 382);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(86, 40);
             this.btnLogin.TabIndex = 10;
@@ -157,12 +157,12 @@
             // 
             this.logoPanel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.logoPanel.BackColor = System.Drawing.Color.White;
-            this.logoPanel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.logoPanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.logoPanel.Controls.Add(this.flowLayoutPanel2);
             this.logoPanel.ForeColor = System.Drawing.Color.Transparent;
-            this.logoPanel.Location = new System.Drawing.Point(3, 4);
+            this.logoPanel.Location = new System.Drawing.Point(117, 77);
             this.logoPanel.Name = "logoPanel";
-            this.logoPanel.Size = new System.Drawing.Size(495, 61);
+            this.logoPanel.Size = new System.Drawing.Size(485, 59);
             this.logoPanel.TabIndex = 2;
             // 
             // flowLayoutPanel2
@@ -195,17 +195,18 @@
             // dateTimePicker1
             // 
             this.dateTimePicker1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.dateTimePicker1.Location = new System.Drawing.Point(248, 66);
+            this.dateTimePicker1.Location = new System.Drawing.Point(352, 138);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(250, 22);
             this.dateTimePicker1.TabIndex = 14;
+            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(503, 471);
+            this.ClientSize = new System.Drawing.Size(731, 617);
             this.Controls.Add(this.logoPanel);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.lbluname);
