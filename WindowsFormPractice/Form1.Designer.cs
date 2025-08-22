@@ -47,11 +47,11 @@
             // lblMessage
             // 
             this.lblMessage.AutoSize = true;
-            this.lblMessage.Font = new System.Drawing.Font("Times New Roman", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMessage.Font = new System.Drawing.Font("Segoe UI", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMessage.ForeColor = System.Drawing.Color.MediumBlue;
             this.lblMessage.Location = new System.Drawing.Point(131, 263);
             this.lblMessage.Name = "lblMessage";
-            this.lblMessage.Size = new System.Drawing.Size(208, 16);
+            this.lblMessage.Size = new System.Drawing.Size(231, 17);
             this.lblMessage.TabIndex = 4;
             this.lblMessage.Text = "Sign in With your Organizational ID";
             this.lblMessage.Click += new System.EventHandler(this.label1_Click_1);
@@ -63,18 +63,18 @@
             this.flowLayoutPanel2.Controls.Add(this.lblLogo);
             this.flowLayoutPanel2.Location = new System.Drawing.Point(3, 3);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(469, 51);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(478, 51);
             this.flowLayoutPanel2.TabIndex = 3;
             this.flowLayoutPanel2.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel2_Paint);
             // 
             // lblLogo
             // 
             this.lblLogo.AutoSize = true;
-            this.lblLogo.Font = new System.Drawing.Font("Trebuchet MS", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLogo.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLogo.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lblLogo.Location = new System.Drawing.Point(3, 0);
             this.lblLogo.Name = "lblLogo";
-            this.lblLogo.Size = new System.Drawing.Size(109, 49);
+            this.lblLogo.Size = new System.Drawing.Size(119, 54);
             this.lblLogo.TabIndex = 0;
             this.lblLogo.Text = "AIUB";
             this.lblLogo.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -87,16 +87,16 @@
             this.logoPanel.Controls.Add(this.flowLayoutPanel2);
             this.logoPanel.Location = new System.Drawing.Point(3, 4);
             this.logoPanel.Name = "logoPanel";
-            this.logoPanel.Size = new System.Drawing.Size(481, 61);
+            this.logoPanel.Size = new System.Drawing.Size(495, 61);
             this.logoPanel.TabIndex = 2;
             // 
             // lblUser
             // 
             this.lblUser.AutoSize = true;
-            this.lblUser.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUser.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUser.Location = new System.Drawing.Point(57, 172);
             this.lblUser.Name = "lblUser";
-            this.lblUser.Size = new System.Drawing.Size(133, 24);
+            this.lblUser.Size = new System.Drawing.Size(127, 28);
             this.lblUser.TabIndex = 5;
             this.lblUser.Text = "User Name :";
             this.lblUser.Click += new System.EventHandler(this.label1_Click_2);
@@ -104,10 +104,10 @@
             // lblpass
             // 
             this.lblpass.AutoSize = true;
-            this.lblpass.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblpass.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblpass.Location = new System.Drawing.Point(57, 216);
             this.lblpass.Name = "lblpass";
-            this.lblpass.Size = new System.Drawing.Size(129, 24);
+            this.lblpass.Size = new System.Drawing.Size(121, 28);
             this.lblpass.TabIndex = 6;
             this.lblpass.Text = "PassWord  :";
             this.lblpass.Click += new System.EventHandler(this.label2_Click);
@@ -130,7 +130,7 @@
             // btnLogin
             // 
             this.btnLogin.BackColor = System.Drawing.Color.DarkBlue;
-            this.btnLogin.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.ForeColor = System.Drawing.Color.White;
             this.btnLogin.Location = new System.Drawing.Point(196, 309);
             this.btnLogin.Name = "btnLogin";
@@ -153,11 +153,11 @@
             // lblForgot
             // 
             this.lblForgot.AutoSize = true;
-            this.lblForgot.Font = new System.Drawing.Font("Times New Roman", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblForgot.Font = new System.Drawing.Font("Segoe UI", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblForgot.ForeColor = System.Drawing.Color.Maroon;
             this.lblForgot.Location = new System.Drawing.Point(329, 417);
             this.lblForgot.Name = "lblForgot";
-            this.lblForgot.Size = new System.Drawing.Size(139, 16);
+            this.lblForgot.Size = new System.Drawing.Size(150, 17);
             this.lblForgot.TabIndex = 12;
             this.lblForgot.Text = "Forgot Your PassWord?";
             // 
@@ -177,19 +177,21 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(480, 442);
+            this.ClientSize = new System.Drawing.Size(510, 456);
             this.Controls.Add(this.lbluname);
             this.Controls.Add(this.lblForgot);
             this.Controls.Add(this.lblpassrequired);
-            this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.textpass);
             this.Controls.Add(this.textuser);
             this.Controls.Add(this.lblpass);
             this.Controls.Add(this.lblUser);
             this.Controls.Add(this.logoPanel);
             this.Controls.Add(this.lblMessage);
+            this.Controls.Add(this.btnLogin);
             this.Name = "Form1";
             this.Text = "Login Page";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseClick);
             this.flowLayoutPanel2.ResumeLayout(false);
             this.flowLayoutPanel2.PerformLayout();
             this.logoPanel.ResumeLayout(false);

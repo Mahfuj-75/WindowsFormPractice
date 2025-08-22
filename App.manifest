@@ -1,0 +1,8 @@
+
+
+<application xmlns="urn:schemas-microsoft-com:asm.v3">
+  <windowsSettings>
+    <!-- Make the application DPI-aware -->
+    <dpiAware>true/PM</dpiAware>
+  </windowsSettings>
+</application>

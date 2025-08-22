@@ -56,6 +56,20 @@ namespace WindowsFormPractice
                 MessageBox.Show("Invalid username and password");
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            if (this.WindowState == FormWindowState.Normal)
+            {
+                this.CenterToScreen();
+            }
+
+        }
+
+        private void Form1_MouseClick(object sender, MouseEventArgs e)
+        {
+
+        }
+
         private void label4_Click(object sender, EventArgs e)
         {
 
