@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Imaging;   // এটা নতুন যোগ করলাম (for ColorMatrix)
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -54,6 +55,8 @@ namespace WindowsFormPractice
                 MessageBox.Show("Login SuccesFully");
             else
                 MessageBox.Show("Invalid username and password");
+
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -63,9 +66,28 @@ namespace WindowsFormPractice
                 this.CenterToScreen();
             }
 
+           
         }
 
         private void Form1_MouseClick(object sender, MouseEventArgs e)
+        {
+
+        }
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
+        {
+            if (textuser.Text == "")
+            {
+                lbluname.Text = "UserName is Required";
+            }
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }
@@ -74,5 +96,7 @@ namespace WindowsFormPractice
         {
 
         }
+
+        
     }
 }
