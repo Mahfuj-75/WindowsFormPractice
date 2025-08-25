@@ -17,6 +17,7 @@ namespace WindowsFormPractice
         public Form1()
         {
             InitializeComponent();
+           
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -95,6 +96,21 @@ namespace WindowsFormPractice
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click_2(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_3(object sender, EventArgs e)
+        {
+            lblWel.Text = ($"WelCome to, {name}");
         }
 
         private void label4_Click(object sender, EventArgs e)
