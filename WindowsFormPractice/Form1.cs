@@ -127,7 +127,8 @@ namespace WindowsFormPractice
 
         private void label4_Click(object sender, EventArgs e)
         {
-
+           Console.Write("tisha");
+           Console.Write("mahfuj");
         }
 
         
