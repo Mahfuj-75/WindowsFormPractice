@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 using System.Windows.Forms;
 
 namespace WindowsFormPractice
@@ -16,8 +17,21 @@ namespace WindowsFormPractice
             //Application.SetHighDpiMode(HighDpiMode.SystemAware);
 
             Application.Run(new Form1());
+
+
+           //Register r=new Register();
+           // r.Show();
+           // //this.Hide();
+
+
+
         }
+
+
         [System.Runtime.InteropServices.DllImport("user32.dll")]
         private static extern bool SetProcessDPIAware();
+
+
+
     }
 }
