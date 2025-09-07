@@ -12,7 +12,7 @@ namespace WindowsFormPractice
 {
     public partial class Register : Form
     {
-        private string Fname, lname, Nationality, dateofbirth, gender;
+        private string Fname, lname, Nationality, dateofbirth, gender, qua;
         public Register()
         {
             InitializeComponent();
@@ -67,14 +67,15 @@ namespace WindowsFormPractice
             Fname = textBox1.Text;
             lname = textBox2.Text;
             Nationality = textBox3.Text;
-            
+            qua = lblQua.Text;
+            dateofbirth = lblDob.Text;
 
             if (rdbMale.Checked)
                 gender = "Male";
             if (rdbFemale.Checked)
                 gender = "Female";
 
-            MessageBox.Show($"First name: {Fname}, LasName: {lname}, Nationality: {Nationality}, Gender: {gender},Date Of Birth: {dateofbirth}");
+            MessageBox.Show($"Name: {Fname} {lname}, Nationality: {Nationality}, Gender: {gender},Date Of Birth: {dateofbirth}, QuaLification: {qua}");
         }
     }
 }
