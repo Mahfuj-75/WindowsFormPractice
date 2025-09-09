@@ -113,6 +113,18 @@ namespace WindowsFormPractice
             lblWel.Text = ($"WelCome to, {name}");
         }
 
+        private void lblForgot_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_4(object sender, EventArgs e)
+        {
+            Register r = new Register();
+            r.Show();
+            this.Hide();
+        }
+
         private void label4_Click(object sender, EventArgs e)
         {
            Console.Write("tisha");
